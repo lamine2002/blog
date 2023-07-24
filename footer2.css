@@ -1,0 +1,125 @@
+.basdepage{
+    width: 100%;
+    background: rgb(22,175,223);
+    background: linear-gradient(90deg, rgba(22,175,223,1) 0%, rgba(233,6,50,1) 100%, rgba(2,0,36,1) 100%);
+}
+.basdepage .maxwidth{
+    width: 1100px;
+    display: flex;
+    margin: 100px auto;
+    margin-bottom: 0px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    justify-content: space-between;
+}
+.basdepage .maxwidth p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.basdepage .maxwidth .left{
+    width: 50%;
+    text-align: center;
+    color: #fff;
+}
+.basdepage .maxwidth .left a{
+    display: inline-block;
+    padding: 13px;
+    border: 2px solid #fff;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.basdepage .maxwidth .left a:hover{
+    color: #00acee;
+    background-color: #fff;
+    transition: 0.5s;
+}
+.basdepage .maxwidth .right{
+    width: 50%;
+    text-align: center;
+    color: #fff;
+}
+.basdepage .maxwidth .right div{
+    margin-top: 10px;
+}
+.basdepage .maxwidth .right div input{
+    display: inline-block;
+    width: 280px;
+    height: 60px;
+    border-radius: 0;
+    border: #fff;
+    font-size: 20px;
+    padding-left: 15px;
+}
+.basdepage .maxwidth .right div  a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+    border: #fff 2px solid;
+    padding: 13px;
+
+}
+.basdepage .maxwidth .right div  a:hover{
+    color: #c91f4c;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+/*8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
+
+footer{
+    width: 100%;
+    background-color: #082228;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+footer .maxwidth{
+    width: 1200px;
+    display: flex;
+}
+footer .maxwidth .partie1{
+    display: flex;
+    padding-right: 25px;
+}
+footer .maxwidth .partie1 .logo{
+    margin-top: 80px;
+}
+footer .maxwidth .partie1 .description{
+    margin-top: 120px;
+}
+footer .maxwidth .partie1 .description span{
+    color: crimson;
+    font-size: 30px;
+    font-family: serif;
+}
+footer .maxwidth .partie2 ul{
+    margin-top: 100px;
+    margin-right: 60px;
+   
+}
+footer .maxwidth .partie2 ul li{
+    
+    list-style: circle;
+}
+footer .maxwidth .partie2 ul li a{
+    color: #00acee;
+}
+footer .maxwidth .partie2 ul li a:hover{
+    text-decoration: underline #00acee;
+}
+footer .maxwidth .partie3 {
+    margin-top: 100px;
+}
+footer .maxwidth .partie3 span{
+    font-size: 13px;
+}
+footer .maxwidth .partie3 a{
+    color: #00acee;
+}
+footer .maxwidth .partie3 a:hover{
+    text-decoration: underline #00acee;
+}
